@@ -196,7 +196,7 @@ Is this line
 It have an `EFI System` partition type and `512M`, format it:
 
 ```sh
-makefs.vfat /dev/sda1
+mkfs.vfat /dev/sda1
 ...
 ```
 
