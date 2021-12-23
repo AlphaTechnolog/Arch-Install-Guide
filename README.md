@@ -956,7 +956,7 @@ in the sessions of lightdm.
 
 This is all for this guide, now reboot the system and try
 all, if you have any issue you can open an issue in this
-repository:
+repository or see more documentation in the arch linux wiki:
 
 ```sh
 sudo reboot
