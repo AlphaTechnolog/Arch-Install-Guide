@@ -246,8 +246,18 @@ the base system and the packages that you specify with pacman in the
 specified mounted partition, make an installation like this:
 
 ```sh
-pacstrap /mnt base linux linux-firmware grub networkmanager sudo vim
+pacstrap /mnt base linux linux-firmware grub networkmanager sudo vim efibootmgr
 ```
+
+### Packages
+
+- base: The base files
+- linux: The kernel
+- linux-firmware: Firmware for kernel
+- grub: The grub for the system
+- sudo: Allow some users to use root in a protected mode
+- vim: edit your files very fast
+- efibootmgr: efi/uefi support for grub (don't install for bios mode)
 
 It will create the traditional linux files structure in `/mnt`
 like this:
